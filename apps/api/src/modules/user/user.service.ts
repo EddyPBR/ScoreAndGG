@@ -1,6 +1,6 @@
 import { Injectable, ConflictException } from "@nestjs/common";
 import { PrismaService } from "../../common/prisma/prisma.service";
-import type { IUserCreateContract } from "../../../../../shared/contracts/user-create.contract";
+import type { ICreateUserContract } from "../../../../../shared/types/user/create-user.contract";
 import { hashPassword, generateSalt } from "../../common/utils/hash.utils";
 import { generateUUID } from "../../common/utils/uuid.utils";
 
@@ -8,7 +8,7 @@ import { generateUUID } from "../../common/utils/uuid.utils";
 export class UserService {
   constructor(private prisma: PrismaService) {}
 
-  async createUser(data: IUserCreateContract) {
+  async createUser(data: ICreateUserContract) {
     const salt = generateSalt();
     const encryptedPassword = hashPassword(data.password, salt);
     const uuid = generateUUID();
