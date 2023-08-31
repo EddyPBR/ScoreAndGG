@@ -1,8 +1,0 @@
-{
-  "extends": "tsconfig/native.json",
-  "compilerOptions": {
-    "strict": true
-  },
-  "include": ["**/*.ts", "**/*.tsx", "**/*.js", "index.ts"],
-  "exclude": ["node_modules"]
-}
