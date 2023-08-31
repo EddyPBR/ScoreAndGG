@@ -1,8 +1,14 @@
 {
-  "name": "eslint-config-custom",
-  "license": "MIT",
+  "name": "@score-and-gg/eslint-config-custom",
   "version": "0.0.0",
-  "private": true,
+  "description": "Score and GG - Eslint Config Custom - Application designed to help you track scores for various games",
+  "author": {
+    "name": "Edvaldo Junior",
+    "email": "edvaldojunior1310@gmail.com",
+    "url": "https://github.com/EddyPBR"
+  },
+  "private": false,
+  "license": "MIT",
   "devDependencies": {
     "@vercel/style-guide": "^5.0.0",
     "eslint-config-turbo": "^1.10.12"

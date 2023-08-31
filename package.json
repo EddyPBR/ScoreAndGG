@@ -12,7 +12,8 @@
     "tsconfig": "*",
     "turbo": "latest"
   },
-  "name": "ScoreAndGG",
+  "license": "MIT",
+  "name": "score-and-gg",
   "packageManager": "npm@9.8.1",
   "workspaces": [
     "apps/*",

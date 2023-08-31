@@ -1,7 +1,7 @@
 {
-  "name": "@score-and-gg/tsconfig",
+  "name": "@score-and-gg/schemas",
   "version": "0.0.0",
-  "description": "Score and GG - TSConfig - Application designed to help you track scores for various games",
+  "description": "Score and GG - Schemas - Application designed to help you track scores for various games",
   "author": {
     "name": "Edvaldo Junior",
     "email": "edvaldojunior1310@gmail.com",
@@ -11,5 +11,8 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "zod": "^3.22.2"
   }
 }

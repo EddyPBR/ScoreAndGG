@@ -1,7 +1,14 @@
 {
-  "name": "web",
-  "version": "1.0.0",
-  "private": true,
+  "name": "@score-and-gg/web",
+  "version": "0.0.0",
+  "description": "Score and GG - Web - Application designed to help you track scores for various games",
+  "author": {
+    "name": "Edvaldo Junior",
+    "email": "edvaldojunior1310@gmail.com",
+    "url": "https://github.com/EddyPBR"
+  },
+  "private": false,
+  "license": "MIT",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,8 +18,7 @@
   "dependencies": {
     "next": "^13.4.19",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "ui": "*"
+    "react-dom": "^18.2.0"
   },
   "devDependencies": {
     "@next/eslint-plugin-next": "^13.4.19",
