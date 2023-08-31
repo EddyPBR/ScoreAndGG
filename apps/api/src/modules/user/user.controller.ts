@@ -5,7 +5,7 @@ import {
   HttpException,
   HttpStatus,
 } from "@nestjs/common";
-import { UserService } from "./User.service";
+import { UserService } from "./user.service";
 import { ICreateUserResponseDTO } from "@score-and-gg/schemas/user/CreateUserResponseDTO.schema";
 import {
   ICreateUserContract,
