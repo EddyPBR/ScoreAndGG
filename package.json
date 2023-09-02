@@ -1,5 +1,11 @@
 {
+  "name": "score-and-gg",
+  "version": "0.0.0",
   "private": true,
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -7,19 +13,15 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
+    "@score-and-gg/schemas": "^0.0.0",
     "dotenv": "^16.3.1"
   },
   "devDependencies": {
     "eslint": "^8.48.0",
     "prettier": "^3.0.3",
-    "tsconfig": "*",
-    "turbo": "latest"
+    "turbo": "^1.10.13",
+    "tsconfig": "*"
   },
   "license": "MIT",
-  "name": "score-and-gg",
-  "packageManager": "npm@9.8.1",
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ]
+  "packageManager": "npm@9.8.1"
 }
