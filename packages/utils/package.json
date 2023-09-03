@@ -1,5 +1,5 @@
 {
-  "name": "@score-and-gg/utils",
+  "name": "utils",
   "version": "0.0.0",
   "description": "Score and GG - Utils - Application designed to help you track scores for various games",
   "author": {

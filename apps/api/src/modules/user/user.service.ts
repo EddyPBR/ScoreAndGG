@@ -1,8 +1,8 @@
 import { Injectable, ConflictException } from "@nestjs/common";
 import { PrismaService } from "../../common/prisma/prisma.service";
-import type { ICreateUserContract } from "@score-and-gg/schemas/user/CreateUserContract.schema";
+import type { ICreateUserContract } from "schemas/user/CreateUserContract.schema";
 import { hashPassword, generateSalt } from "../../common/utils/hash.util";
-import { generateUUID } from "@score-and-gg/utils/uuid.util";
+import { generateUUID } from "utils/uuid.util";
 
 @Injectable()
 export class UserService {

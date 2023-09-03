@@ -1,8 +1,8 @@
 {
-  "extends": "@score-and-gg/tsconfig/nestjs.json",
+  "extends": "tsconfig/nestjs.json",
   "compilerOptions": {
     "outDir": "./dist",
-    "baseUrl": "./"
+    "baseUrl": "./src"
   },
   "include": ["**/*.ts"],
   "exclude": ["node_modules", "test", "dist", "**/*spec.ts"]

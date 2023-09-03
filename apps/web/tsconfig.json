@@ -1,5 +1,5 @@
 {
-  "extends": "@score-and-gg/tsconfig/nextjs.json",
+  "extends": "tsconfig/nextjs.json",
   "compilerOptions": {
     "plugins": [{ "name": "next" }]
   },

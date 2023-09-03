@@ -1,5 +1,5 @@
 {
-  "name": "@score-and-gg/eslint-config-custom",
+  "name": "eslint-config-custom",
   "version": "0.0.0",
   "description": "Score and GG - Eslint Config Custom - Application designed to help you track scores for various games",
   "author": {

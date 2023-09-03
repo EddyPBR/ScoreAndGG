@@ -1,5 +1,5 @@
 {
-  "name": "@score-and-gg/tsconfig",
+  "name": "tsconfig",
   "version": "0.0.0",
   "description": "Score and GG - TSConfig - Application designed to help you track scores for various games",
   "author": {

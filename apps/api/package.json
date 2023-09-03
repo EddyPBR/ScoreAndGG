@@ -1,5 +1,5 @@
 {
-  "name": "@score-and-gg/api",
+  "name": "api",
   "version": "0.0.0",
   "description": "Score and GG - Api - Application designed to help you track scores for various games",
   "author": {
@@ -32,8 +32,8 @@
     "dotenv": "^16.3.1",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.8.1",
-    "@score-and-gg/schemas": "*",
-    "@score-and-gg/utils": "*"
+    "schemas": "*",
+    "utils": "*"
   },
   "devDependencies": {
     "@nestjs/cli": "^10.0.0",

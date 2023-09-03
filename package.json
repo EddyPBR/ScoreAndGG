@@ -13,7 +13,6 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "dependencies": {
-    "@score-and-gg/schemas": "^0.0.0",
     "dotenv": "^16.3.1"
   },
   "devDependencies": {

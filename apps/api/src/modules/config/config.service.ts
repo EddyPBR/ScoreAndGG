@@ -1,8 +1,5 @@
 import { Injectable } from "@nestjs/common";
-import {
-  ApiEnvSchema,
-  IApiEnvSchema,
-} from "@score-and-gg/schemas/env/api-env.schema";
+import { ApiEnvSchema, IApiEnvSchema } from "schemas/env/api-env.schema";
 
 @Injectable()
 export class ConfigService {

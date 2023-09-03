@@ -6,11 +6,11 @@ import {
   HttpStatus,
 } from "@nestjs/common";
 import { UserService } from "./user.service";
-import { ICreateUserResponseDTO } from "@score-and-gg/schemas/user/CreateUserResponseDTO.schema";
+import { ICreateUserResponseDTO } from "schemas/user/CreateUserResponseDTO.schema";
 import {
   ICreateUserContract,
   CreateUserContract,
-} from "@score-and-gg/schemas/user/CreateUserContract.schema";
+} from "schemas/user/CreateUserContract.schema";
 
 @Controller("user")
 export class UserController {
